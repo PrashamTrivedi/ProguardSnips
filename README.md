@@ -23,14 +23,14 @@ dependencies {
 	}
 ```
 
-[![Release](https://img.shields.io/github/tag/PrashamTrivedi/ProguardSnips.svg?label=JitPack-ProguardSnips)](https://jitpack.io/#jitpack/gradle-simple)
+[![Release](https://img.shields.io/github/tag/PrashamTrivedi/ProguardSnips.svg?label=JitPack-ProguardSnips)](https://jitpack.io/#PrashamTrivedi/ProguardSnips/)
 
 ## How can I add new proguard snippets-Or how can I contribute?
 - It's recommended not to add any proguard configuration which does not belong to any library, thus if a library requires your app's model class to be configured for proguard add such library here. Cupboard for android fits in this case.
 
 If any library is missing or requires upgrade, fork this library and add proguard configuration in proguard directory. Re-sync this with gradle, and you are ready to run your project.
 
-Any tests, wikis.... etc all configurations are welcome
+Any tests, wikis.... etc all contributions are welcome
 
 ## How can I make sure that proguard is applied properly?
 In my knowledge there are two ways to do that.
@@ -46,7 +46,7 @@ But I feel this library will eventually deprecated, because of `consumerProguard
 # Special Thanks
  - [Android Proguard Snippets library](https://github.com/krschultz/android-proguard-snippets), from where these original proguard snippets came. 
  - [RxJavaProguardRules](https://github.com/artem-zinnatullin/RxJavaProGuardRules), creation of which pushed me to create this library.
- - [Ian Lake's this post](https://plus.google.com/+IanLake/posts/1HfDuFFkMXG)
+ - [Ian Lake's this post](https://plus.google.com/+IanLake/posts/1HfDuFFkMXG) 
 
 ## License
    	   Copyright 2015 Prasham Trivedi
