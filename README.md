@@ -3,7 +3,7 @@ A library that does all proguard work for you.
 
 This is a library which has many proguard configuration files. Thanks to [Android Proguard Snippets library](https://github.com/krschultz/android-proguard-snippets), which has a great collection of proguard configuration files. This library exposes them with help of aar, and `consumerProguardFiles` property which enables aar library to expose proguard configuration, so client application does not have to define any proguard configuration (Except their own class). 
 
-This is not new, as of v 7.5 Google Play Service already expose proguard configs using this concept.
+This is not new, as of v 7.0 Google Play Service already expose proguard configs using this concept.
 
 ## How can I use this library.
 Being just created, I am not planning to upload to jCenter before getting to know how it's being used, so for now you can use jitpack to get this library.
